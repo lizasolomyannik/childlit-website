@@ -3,11 +3,11 @@
     <head>
         <link rel="icon" href="./images/book-icon.png" type="image/png">
         <title>childlit</title>
-        <script src="./scripts/script.js"></script>
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <script defer src="./scripts/script.js"></script>
     </head>
 
     <body>
@@ -62,6 +62,112 @@
 
         <div class="graph">
             <div class='tableauPlaceholder' id='viz1651503043468' style='position: relative'><noscript><a href='#'><img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;childlitpopularauthors&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='childlitpopularauthors&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ch&#47;childlitpopularauthors&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1651503043468');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+        <div class="authors_container">
+            <div class="author">
+                <button id="open">
+                    <img src="./images/marshak.png" alt="Маршак">
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>Самуил Яковлевич Маршак</h2>
+                        <p>Русский советский поэт, драматург и переводчик, литературный критик, сценарист. Автор популярных детских книг. Лауреат Ленинской и четырёх Сталинских премий</p>
+                        <button id="close">
+                            <p>Назад</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author">
+                <button id="open">
+                    <img src="./images/chukovskiy.png" alt="Чуковский">
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>Корней Иванович Чуковский</h2>
+                        <p>Русский советский поэт, публицист, литературный критик, переводчик и литературовед, детский писатель, журналист. Отец писателей Николая Корнеевича Чуковского и Лидии Корнеевны Чуковской</p>
+                        <button id="close">
+                            <p>Назад</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author">
+                <button id="open">
+                    <img src="./images/bianki.png" alt="Бианки">
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>Виталий Валентинович Бианки</h2>
+                        <p>Советский писатель, автор многих произведений для детей</p>
+                        <button id="close">
+                            <p>Назад</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author">
+                <button id="open">
+                    <img src="./images/zhitkov.png" alt="Житков">
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>Борис Степанович Житков</h2>
+                        <p>Русский и советский писатель, прозаик, путешественник и исследователь. Автор популярных приключенческих рассказов и повестей, произведений о животных и романа «Виктор Вавич» о революции 1905 года</p>
+                        <button id="close">
+                            <p>Назад</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author">
+                <button id="open">
+                    <img src="./images/barto.png" alt="Барто">
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>Агния Львовна Барто</h2>
+                        <p>Русская советская детская поэтесса, писательница, киносценаристка, радиоведущая. Лауреат Сталинской премии второй степени и Ленинской премии</p>
+                        <button id="close">
+                            <p>Назад</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author">
+                <button id="open">
+                    <img src="./images/mamin_sibiryak.png" alt="Мамин-Сибиряк">
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>Дмитрий Наркисович Мамин-Сибиряк</h2>
+                        <p>Русский писатель-прозаик и драматург</p>
+                        <button id="close">
+                            <p>Назад</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="author">
+                <button id="open">
+                    <img src="./images/pushkin.png" alt="Пушкин">
+                </button>
+                <div class="modal_container" id="modal_container">
+                    <div class="modal">
+                        <h2>Александр Сергеевич Пушкин</h2>
+                        <p>Русский поэт, драматург и прозаик, заложивший основы русского реалистического направления, литературный критик и теоретик литературы, историк, публицист, журналист; один из самых авторитетных литературных деятелей первой трети XIX века</p>
+                        <button id="close">
+                            <p>Назад</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
     

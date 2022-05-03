@@ -125,3 +125,79 @@ body {
     font-size: 17px;
     line-height: 30px;
 }
+
+.authors_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.authors_container .author {
+    width: 250px;
+    height: 250px;
+}
+
+.authors_container .author button {
+    background-color: transparent;
+    border: none;
+    /* color: white; */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.authors_container .author button img {
+    height: 100%;
+    width: auto;
+    align-items: center;
+    cursor: pointer;
+}
+
+.authors_container .author .modal_container {
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+.authors_container .author .modal_container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.authors_container .author .modal {
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 5px;
+    width: 600px;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.authors_container .author .modal h2 {
+    margin: 0;
+    font-weight: 200;
+    color: #9a292b;
+}
+
+.authors_container .author .modal p {
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    padding-top: 20px;
+}
+
+.authors_container .author .modal button {
+    color: #9a292b;
+}
