@@ -131,6 +131,7 @@ body {
     flex-wrap: wrap;
     padding-left: 100px;
     padding-right: 100px;
+    margin-bottom: 85px;
 }
 
 .authors_container .author {
