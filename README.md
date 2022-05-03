@@ -6,3 +6,5 @@
   <li>Вставить главную картинку</li>
   <li>Написать тексты</li>
 </ul>
+Посмотреть сайт
+можно по <a href="https://lizasolomyannik.github.io/childlit-website/">ссылке</a>
