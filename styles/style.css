@@ -202,3 +202,10 @@ body {
     color: black;
     padding-top: 20px;
 }
+
+.authors_container .author .modal img {
+    margin-top: 30px;
+    width: 40%;
+    height: auto;
+    border-radius: 30%;
+}
