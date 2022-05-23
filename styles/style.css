@@ -106,6 +106,39 @@ body {
     font-size: 1.2rem;
 }
 
+.about .tooltip {
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: #9a292b;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.about .tooltip .tooltip-text {
+    visibility: hidden;
+    width: fit-content;
+    background-color: white;
+    color: #9a292b;
+    text-align: center;
+    white-space: nowrap;
+    /* padding: 5px 0; */
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: -50%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.about .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
 .graph {
     width: 60%;
     align-items: center;
