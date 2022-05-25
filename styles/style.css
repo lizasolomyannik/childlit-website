@@ -156,6 +156,16 @@ body {
     font-weight: 400;
     font-size: 17px;
     line-height: 30px;
+    padding-top: 15px;
+}
+
+.paragraph ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 10px;
 }
 
 .authors_container {
