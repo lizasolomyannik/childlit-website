@@ -126,6 +126,7 @@ body {
     visibility: hidden;
     width: fit-content;
     background-color: white;
+    font-size: 1rem;
     color: #9a292b;
     text-align: center;
     white-space: nowrap;
@@ -134,7 +135,7 @@ body {
     position: absolute;
     z-index: 1;
     top: 125%;
-    left: -50%;
+    left: -35%;
     opacity: 0;
     transition: 0.3s ease-in-out;
 }
