@@ -34,6 +34,11 @@ body {
     margin-left: 300px;
     align-items: center;
 }  
+
+.img-container.dh-center img:hover {
+    transform: scale(1.1);
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -250,4 +255,38 @@ body {
     width: 40%;
     height: auto;
     border-radius: 30%;
+}
+
+.authors {
+    padding-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.authors .member {
+    line-height: 30px;
+    display: inline-flex;
+}
+
+.authors .member .role h6 {
+    font-size: 15px;
+    color: #9a292b;
+    font-weight: normal;
+}
+
+.authors .member .role h5 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.authors .member .social {
+    float: inline-end;
+    margin-left: 30px;
+}
+
+.authors .member .social img {
+    width: 30px;
+    height: auto;
+    margin: 20px;
+    padding-top: 20px;
 }
