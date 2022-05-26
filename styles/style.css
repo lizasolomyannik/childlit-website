@@ -145,6 +145,17 @@ body {
     opacity: 1;
 }
 
+.graph-name {
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+}
+
+.graph-name h3 {
+    color: #9a292b;
+    font-weight: normal;
+}
+
 .graph {
     width: 60%;
     align-items: center;
@@ -172,6 +183,50 @@ body {
     font-size: 17px;
     line-height: 30px;
     padding-top: 10px;
+}
+
+.paragraph ul li {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.paragraph ul li i {
+    margin-right: 5px;
+}
+
+.paragraph .tooltip-p {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #9a292b;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.paragraph .tooltip-p .tooltip-p-text {
+    display: inline-block;
+    visibility: hidden;
+    width: fit-content;
+    white-space: nowrap;
+    background-color: white;
+    color: #9a292b;
+    text-align: justify;
+    border: dotted 1px #9a292b;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 10%;
+    margin-left: -10px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.paragraph .tooltip-p:hover .tooltip-p-text {
+    visibility: visible;
 }
 
 .authors_container {
