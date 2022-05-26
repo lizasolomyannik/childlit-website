@@ -177,12 +177,16 @@ body {
 }
 
 .paragraph ol li {
-    list-style-type: decimal;
-    list-style-position: inside;
+    list-style-type: none;
     font-weight: 400;
     font-size: 17px;
     line-height: 30px;
     padding-top: 10px;
+}
+
+.paragraph ol li i {
+    margin-right: 5px;
+    color: #9a292b;
 }
 
 .paragraph ul li {
@@ -234,7 +238,7 @@ body {
     flex-wrap: wrap;
     padding-left: 100px;
     padding-right: 100px;
-    margin-bottom: 85px;
+    margin-bottom: 50px;
 }
 
 .authors_container .author {
