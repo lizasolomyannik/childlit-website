@@ -18,6 +18,18 @@ const open_zhitkov = document.getElementById('open_zhitkov');
 const modal_container_zhitkov = document.getElementById('modal_container_zhitkov');
 const close_zhitkov = document.getElementById('close_zhitkov');
 
+const open_pushkin = document.getElementById('open_pushkin');
+const modal_container_pushkin = document.getElementById('modal_container_pushkin');
+const close_pushkin = document.getElementById('close_pushkin');
+
+const open_tolstoy = document.getElementById('open_tolstoy');
+const modal_container_tolstoy = document.getElementById('modal_container_tolstoy');
+const close_tolstoy = document.getElementById('close_tolstoy');
+
+const open_perelman = document.getElementById('open_perelman');
+const modal_container_perelman = document.getElementById('modal_container_perelman');
+const close_perelman = document.getElementById('close_perelman');
+
 open_marshak.addEventListener('click', () => {
     modal_container_marshak.classList.add('show');
 });
@@ -70,16 +82,28 @@ close_sibiryak.addEventListener('click', () => {
   modal_container_sibiryak.classList.remove('show');
 });
 
-const open_pushkin = document.getElementById('open_pushkin');
-const modal_container_pushkin = document.getElementById('modal_container_pushkin');
-const close_pushkin = document.getElementById('close_pushkin');
-
 open_pushkin.addEventListener('click', () => {
   modal_container_pushkin.classList.add('show');
 });
 
 close_pushkin.addEventListener('click', () => {
   modal_container_pushkin.classList.remove('show');
+});
+
+open_tolstoy.addEventListener('click', () => {
+  modal_container_tolstoy.classList.add('show');
+});
+
+close_tolstoy.addEventListener('click', () => {
+  modal_container_tolstoy.classList.remove('show');
+});
+
+open_perelman.addEventListener('click', () => {
+  modal_container_perelman.classList.add('show');
+});
+
+close_perelman.addEventListener('click', () => {
+  modal_container_perelman.classList.remove('show');
 });
 
 window.onload = function () {

@@ -281,6 +281,10 @@ body {
     transition: opacity 0.3s ease;
 }
 
+.authors_container .author .modal_container .modal .close_button p {
+    color: #9a292b;
+}
+
 .authors_container .author .modal_container.show {
     pointer-events: auto;
     opacity: 1;
@@ -315,6 +319,11 @@ body {
     width: 40%;
     height: auto;
     border-radius: 30%;
+}
+
+.authors_container .break {
+    flex-basis: 100%;
+    height: 0;
 }
 
 .authors {
