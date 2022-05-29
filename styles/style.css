@@ -24,14 +24,15 @@ body {
 .img-container.book img {
     max-height: 150px;
     max-width: 150px;
-    margin-left: 100px;
+    margin-left: 20%;
 }
 
 .img-container.dh-center img {
     max-width: 200px;
     max-height: auto;
     margin-top: 36px;
-    margin-left: 300px;
+    margin-left: 40%;
+    /* margin-left: 300px; */
     align-items: center;
 }  
 
@@ -81,9 +82,12 @@ body {
 .header {
     width: 100%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
+    line-height: 3.6rem;
+    font-size: 1.25rem;
+    /* margin-top: 10px;
     line-height: 60px;
-    font-size: 20px;
+    font-size: 20px; */
     font-weight: 700;
 }
 
@@ -101,11 +105,13 @@ body {
 .about {
     width: 100%;
     text-align: center;
-    padding: 20px 250px 50px  250px;
+    padding: 1.25rem 15.625rem 3.125rem 15.625rem;
+    /* padding: 20px 250px 50px  250px; */
 }
 
 .about p {
-    line-height: 30px;
+    line-height: 1.875rem;
+    /* line-height: 30px; */
     font-style: italic;
     font-weight: 400;
     font-size: 1.2rem;
@@ -116,7 +122,7 @@ body {
     display: inline-block;
     text-decoration: underline;
     text-decoration-color: #9a292b;
-    line-height: 30px;
+    line-height: 1.875rem;
     font-style: italic;
     font-weight: 400;
     font-size: 1.2rem;
@@ -131,7 +137,9 @@ body {
     text-align: center;
     white-space: nowrap;
     /* padding: 5px 0; */
-    border-radius: 6px;
+    /* border-radius: 6px; */
+    border-radius: 0.375rem;
+    margin-left: 1rem;
     position: absolute;
     z-index: 1;
     top: 125%;
@@ -146,58 +154,77 @@ body {
 }
 
 .graph-name {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+    /* padding-left: 200px;
+    padding-right: 200px; */
     width: 100%;
+    margin-bottom: 0.625rem;
 }
 
 .graph-name h3 {
     color: #9a292b;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .graph {
     width: 60%;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
+    /* margin-bottom: 50px; */
 }
 
 .paragraph {
     width: 100%;
-    padding-left: 200px;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+    margin-bottom: 3.125rem;
+    /* padding-left: 200px;
     padding-right: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 }
 
 .paragraph p {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+    padding-top: 0.938rem;
+    /* font-size: 17px;
     line-height: 30px;
-    padding-top: 15px;
+    padding-top: 15px; */
 }
 
 .paragraph ol li {
     list-style-type: none;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+    padding-top: 0.625rem;
+    /* font-size: 17px;
     line-height: 30px;
-    padding-top: 10px;
+    padding-top: 10px; */
 }
 
 .paragraph ol li i {
-    margin-right: 5px;
+    margin-right: 0.313rem;
+    /* margin-right: 5px; */
     color: #9a292b;
 }
 
 .paragraph ul li {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+    padding-top: 0.625rem;
+    /* font-size: 17px;
     line-height: 30px;
-    padding-top: 10px;
+    padding-top: 10px; */
 }
 
 .paragraph ul li i {
-    margin-right: 5px;
+    margin-right: 0.313rem;
+    /* margin-right: 5px; */
 }
 
 .paragraph .tooltip-p {
@@ -205,8 +232,10 @@ body {
     display: inline-block;
     border-bottom: 1px dotted #9a292b;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 1.063rem;
+    line-height: 1.875rem;
+    /* font-size: 17px;
+    line-height: 30px; */
 }
 
 .paragraph .tooltip-p .tooltip-p-text {
@@ -217,16 +246,16 @@ body {
     background-color: white;
     color: #9a292b;
     text-align: justify;
-    border: dotted 1px #9a292b;
-    padding: 5px 5px;
+    border: dotted 0.063rem #9a292b;
+    padding: 0.313rem 0.313rem;
     position: absolute;
     z-index: 1;
     bottom: 100%;
     left: 10%;
-    margin-left: -10px;
+    margin-left: -0.625rem;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 25px;
+    line-height: 1.563rem;
 }
 
 .paragraph .tooltip-p:hover .tooltip-p-text {
@@ -234,11 +263,11 @@ body {
 }
 
 .authors_container {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3.125rem;
 }
 
 .authors_container .author {
@@ -292,11 +321,13 @@ body {
 
 .authors_container .author .modal {
     background-color: white;
-    padding: 30px 50px;
-    border-radius: 5px;
+    padding: 1.875rem 3.125rem;
+    border-radius: 0.313rem;
+    /* padding: 30px 50px; */
+    /* border-radius: 5px; */
     width: 600px;
     max-width: 100%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 0.125rem 0.25px rgba(0,0,0,0.2);
     text-align: center;
 }
 
@@ -308,14 +339,14 @@ body {
 
 .authors_container .author .modal p {
     opacity: 0.7;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 200;
     color: black;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .authors_container .author .modal img {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     width: 40%;
     height: auto;
     border-radius: 30%;
@@ -327,35 +358,38 @@ body {
 }
 
 .authors {
-    padding-left: 200px;
+    padding-left: 12.5rem;
+    margin-top: 6.25rem;
+    margin-bottom: 5rem;
+    /* padding-left: 200px;
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 80px; */
 }
 
 .authors .member {
-    line-height: 30px;
+    line-height: 1.875rem;
     display: inline-flex;
 }
 
 .authors .member .role h6 {
-    font-size: 15px;
+    font-size: 0.938rem;
     color: #9a292b;
     font-weight: normal;
 }
 
 .authors .member .role h5 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: normal;
 }
 
 .authors .member .social {
     float: inline-end;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 .authors .member .social img {
     width: 30px;
     height: auto;
-    margin: 20px;
-    padding-top: 20px;
+    margin: 1.25rem;
+    padding-top: 1.25rem;
 }
