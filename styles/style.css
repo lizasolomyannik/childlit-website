@@ -359,7 +359,7 @@ body {
 
 .authors {
     padding-left: 12.5rem;
-    margin-top: 6.25rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     /* padding-left: 200px;
     margin-top: 100px;
@@ -392,4 +392,19 @@ body {
     height: auto;
     margin: 1.25rem;
     padding-top: 1.25rem;
+}
+
+.conclusion {
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 17rem 0.3rem 17rem;
+    /* padding: 2rem 15.625rem 1rem 15.625rem; */
+}
+
+.conclusion p {
+    line-height: 1.875rem;
+    /* line-height: 30px; */
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
