@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     transition: all 0.2s ease;
+    align-items: center;
 } 
 
 body {
@@ -25,19 +26,6 @@ body {
     max-height: 150px;
     max-width: 150px;
     margin-left: 20%;
-}
-
-.img-container.dh-center img {
-    max-width: 200px;
-    max-height: auto;
-    margin-top: 36px;
-    margin-left: 40%;
-    /* margin-left: 300px; */
-    align-items: center;
-}  
-
-.img-container.dh-center img:hover {
-    transform: scale(1.1);
 }
 
 .clearfix::after {
@@ -105,7 +93,7 @@ body {
 .about {
     width: 100%;
     text-align: center;
-    padding: 1.25rem 15.625rem 3.125rem 15.625rem;
+    padding: 3rem 15.625rem 3.125rem 15.625rem;
     /* padding: 20px 250px 50px  250px; */
 }
 
